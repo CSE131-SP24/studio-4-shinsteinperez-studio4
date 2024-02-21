@@ -19,6 +19,6 @@ public class InterpretDrawingFile {
 		chooser.showOpenDialog(null);
 		File f = new File(chooser.getSelectedFile().getPath());
 		Scanner in = new Scanner(f); //making Scanner with a File
-		
+		StdDraw.filledRectangle(0.5, 0.5, 0.3, 0.3);
 	}
 }
